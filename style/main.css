@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+}
+
+.page {
+	width: 1240px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.header {
+	background: #A0FFBD;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	min-height: 570px;
+}
+
+.sidebar {
+	display: flex;
+	padding-top: 8px;
+	background: #8FB7FF;
+	
+}
+
+.sidebar ul {
+	width: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.sidebar ul li {
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar ul li a {
+	margin-bottom: 8px;
+	color: #000000;
+}
+
+.content {
+	padding: 8px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	background: #D2D2D2;
+}
+
+/*book*/
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: 180px;
+	justify-content: space-between;
+	margin: 8px;
+}
+
+input {
+	height: 28px;
+}
+
+textarea {
+	height: 80px;
+}
+
+button {
+	height: 30px;
+}
+
